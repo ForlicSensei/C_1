@@ -3,7 +3,6 @@
 
 
 Person* GetPersons(int argc, char* argv[], int* count) {
-
     *count = 0;
     for (int i = 1; i < argc; i++) {
         if (CompareString(argv[i], "-person") == 0) {
@@ -13,9 +12,9 @@ Person* GetPersons(int argc, char* argv[], int* count) {
 
     Person* p = (Person*)malloc(sizeof(Person) * *count);
     for (int i = 0; i < *count; i++) {
-        p[i].firstName = "Кто я?!";
-        p[i].secondName = "Кто я?!";
-        p[i].thirdName = "Кто я?!";
+        p[i].firstName = "";
+        p[i].secondName = "";
+        p[i].thirdName = "";
         p[i].birthYear = 18;
     }
 

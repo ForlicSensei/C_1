@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/23133/CLionProjects/untitled4/PrintAllPerson.c
+locals.h
+C:/Users/23133/CLionProjects/untitled4/locals.h
+
+C:/Users/23133/CLionProjects/untitled4/locals.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+locale.h
+-
+
